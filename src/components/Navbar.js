@@ -47,14 +47,8 @@ function Navbar() {
 				</Button>
 			</Box>
 
-			{/* Logo */}
-
-			{/* Add the "Blog" button aligned to the right */}
 			<Box>
-				<Button
-					variant="solid" // You can change this to "outline" or any other variant
-					colorScheme="pink" // Set the color scheme to "pink" (you can change to other color schemes)
-				>
+				<Button variant="solid" colorScheme="pink">
 					Blog
 				</Button>
 			</Box>
