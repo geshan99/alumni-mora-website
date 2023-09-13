@@ -1,6 +1,7 @@
 import React from "react";
 import { Flex, Box, IconButton, Button, Image } from "@chakra-ui/react";
 import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
+import { Link as RouterLink } from "react-router-dom";
 
 function Navbar() {
 	const [isOpen, setIsOpen] = React.useState(false);
@@ -12,6 +13,7 @@ function Navbar() {
 	return (
 		<Flex
 			as="nav"
+			direction={{ base: "column", md: "row" }}
 			align="center"
 			justify="space-between"
 			wrap="wrap"
@@ -26,7 +28,10 @@ function Navbar() {
 					variant="outline"
 				/>
 			</Box>
-			<Image src="/logo.png" alt="Logo" width="250px" height="auto" />
+
+			<Box>
+				<Image src="/logo.png" alt="Logo" width="250px" height="auto" />
+			</Box>
 
 			<Box
 				display={{ base: isOpen ? "block" : "none", md: "block" }}
@@ -34,16 +39,16 @@ function Navbar() {
 				mt={{ base: 4, md: 0 }}
 			>
 				<Button variant="link" mr={4} _hover={{ color: "pink.500" }}>
-					Home
+					<a href="/">Home</a>
 				</Button>
 				<Button variant="link" mr={4} _hover={{ color: "pink.500" }}>
-					About
+					<a href="/about">About</a>
 				</Button>
 				<Button variant="link" mr={4} _hover={{ color: "pink.500" }}>
-					Services
+					<a href="/avenues">Avenues</a>
 				</Button>
 				<Button variant="link" mr={4} _hover={{ color: "pink.500" }}>
-					Contact
+					<a href="/contactus">Contact Us</a>
 				</Button>
 			</Box>
 

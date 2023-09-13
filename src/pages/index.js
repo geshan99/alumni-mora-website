@@ -1,3 +1,5 @@
+import Footer from "@/components/Footer";
+import ImageSlider from "@/components/ImageSlider";
 import Navbar from "@/components/Navbar";
 import Head from "next/head";
 
@@ -18,6 +20,8 @@ export default function Home() {
 			</Head>
 			<main>
 				<Navbar></Navbar>
+				<ImageSlider></ImageSlider>
+				<Footer></Footer>
 			</main>
 		</>
 	);
