@@ -24,7 +24,8 @@ function LeftImageSection({ imageUrl, title, subtitle, points }) {
 				alt="Image"
 				boxSize={{ base: "100%", md: "500px" }}
 				objectFit="cover"
-				mb={{ base: "4", md: "0" }} // Bottom margin for small screens
+				mb={{ base: "4", md: "0" }}
+				borderRadius={{ base: "0px", lg: "10px" }}
 			/>
 
 			{/* Right Content */}

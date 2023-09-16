@@ -1,6 +1,8 @@
 import Footer from "@/components/Footer";
 import LeftImageSection from "@/components/LeftImageSection";
 import Navbar from "@/components/Navbar";
+import ProjectBox from "@/components/ProjectBox";
+import VideoGallery from "@/components/VideoGallery";
 
 const points = ["hfgsdhj dhgvkhfdg ugfjh", "gfgfgf gfgf "];
 
@@ -14,6 +16,8 @@ function Avenues() {
 				subtitle="Broadening the bnbnbm bnh gcghS"
 				points={points}
 			></LeftImageSection>
+			{/* <ProjectBox></ProjectBox> */}
+			<VideoGallery></VideoGallery>
 			<Footer></Footer>
 		</>
 	);
