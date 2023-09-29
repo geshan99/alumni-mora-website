@@ -14,7 +14,9 @@ function Footer() {
 			>
 				{/* Column 1: Logo */}
 				<Box mb={{ base: "4", md: "0" }} ml={{ lg: 100, md: 75 }}>
-					<Image src="/logo1.png" alt="Logo" w="300px" h="auto" />
+					<a href="/">
+						<Image src="/logo1.png" alt="Logo" w="300px" h="auto" />
+					</a>
 				</Box>
 
 				{/* Column 2: Location and Email */}
@@ -27,7 +29,7 @@ function Footer() {
 							mr={{ base: 30 }}
 						/>
 						<Link
-							href="https://www.example.com/location"
+							href="https://maps.app.goo.gl/vwiyXMpPfcDQSVDC7"
 							isExternal
 							textDecor="none"
 						>
