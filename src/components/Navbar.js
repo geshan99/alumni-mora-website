@@ -30,7 +30,7 @@ function Navbar() {
 			</Box>
 
 			<Box>
-				<Image src="/logo.png" alt="Logo" width="250px" height="auto" />
+				<Image src="/logo1.png" alt="Logo" width="250px" height="auto" />
 			</Box>
 
 			<Box

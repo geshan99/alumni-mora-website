@@ -14,7 +14,7 @@ function Footer() {
 			>
 				{/* Column 1: Logo */}
 				<Box mb={{ base: "4", md: "0" }} ml={{ lg: 100, md: 75 }}>
-					<Image src="/logo.png" alt="Logo" w="300px" h="auto" />
+					<Image src="/logo1.png" alt="Logo" w="300px" h="auto" />
 				</Box>
 
 				{/* Column 2: Location and Email */}
