@@ -87,14 +87,14 @@ function History() {
 								>
 									<Text fontWeight="bold">{dt.president}</Text>
 									<Text>Signature Projects: </Text>
-									<Text>
+									
 										<ul>
 											{dt.projects.map((project) => {
 												return (<li>{ project}</li>)
 											})}
 
 										</ul>
-									</Text>
+									
 								</Box>
 							</Flex>
 						)
@@ -115,14 +115,14 @@ function History() {
 							>
 									<Text fontWeight="bold">{dt.president}</Text>
 									<Text>Signature Projects: </Text>
-									<Text>
+									
 										<ul>
 										{dt.projects.map((project) => {
 											return (<li>{project}</li>)
 										})}
 
 										</ul>
-									</Text>
+									
 							</Box>
 							<Box>
 									<Text fontWeight="bold">{dt.year}</Text>
