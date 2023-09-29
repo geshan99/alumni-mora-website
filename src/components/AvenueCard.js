@@ -18,10 +18,10 @@ const AvenueCard = ({ icon, title, description }) => {
 				<Image src={icon} alt={title} w="80px" h="80px" />
 			</Flex>
 			<Box p={4}>
-				<Text fontSize="2xl" fontWeight="bold" mb={2}>
+				<Text fontSize="2xl" fontWeight="bold" mb={2} align="center">
 					{title}
 				</Text>
-				<Text align="justify">{description}</Text>
+				<Text align="center">{description}</Text>
 			</Box>
 		</Box>
 	);
