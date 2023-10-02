@@ -10,7 +10,13 @@ import {
 	Center,
 } from "@chakra-ui/react";
 
-const KindredKidneys = ({ title, description, buttonText, imageUrl }) => {
+const KindredKidneys = ({
+	title,
+	description,
+	buttonText,
+	imageUrl,
+	fundUrl,
+}) => {
 	return (
 		<Center>
 			<Box
@@ -28,6 +34,7 @@ const KindredKidneys = ({ title, description, buttonText, imageUrl }) => {
 					h={{ base: "300px", md: "300px" }}
 					mb={{ base: 4, md: 0 }}
 					mr={{ base: 0, md: 14 }}
+					ml={[5, 0, 0]}
 				/>
 				<Box flex="1">
 					<Heading as="h2" size="md" mb={2}>
@@ -36,7 +43,11 @@ const KindredKidneys = ({ title, description, buttonText, imageUrl }) => {
 					<Text fontSize="md" color="gray.600" mb={4} align="justify">
 						{description}
 					</Text>
-					<Button colorScheme="blue">{buttonText}</Button>
+					<Button colorScheme="blue">
+						<a href={fundUrl} target="_blank">
+							{buttonText}
+						</a>
+					</Button>
 				</Box>
 			</Box>
 		</Center>

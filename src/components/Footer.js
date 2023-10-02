@@ -54,7 +54,13 @@ function Footer() {
 			</Flex>
 
 			{/* Centered Text */}
-			<Text textAlign="center" mt="4" color="white" fontSize="sm">
+			<Text
+				textAlign="center"
+				mt="4"
+				color="white"
+				fontSize="sm"
+				m={[1, 0, 0]}
+			>
 				Copyright © 2023 Rotaract Alumni Mora. All rights reserved.
 			</Text>
 		</Box>

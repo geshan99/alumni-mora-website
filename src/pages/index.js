@@ -77,6 +77,7 @@ export default function Home() {
 					description={description}
 					buttonText={buttonText}
 					imageUrl="/home/kindered.png"
+					fundUrl="https://gofund.me/49b13769"
 				></KindredKidneys>
 				<Footer></Footer>
 			</main>
