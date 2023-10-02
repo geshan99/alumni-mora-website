@@ -31,7 +31,7 @@ const projectData = [
 		title: "Share the Joy",
 		description:
 			"Share the Joy\" aims to spread birthday happiness among Rotaractors and the community. The project has two phases: In the first, donations collected from Rotaractors who celebrated birthdays between May and September were used to provide essential stationery items to Wanarajah Tamil Vidyalam, Dikoya, Hatton. In the second phase, Rotaractors celebrating birthdays from October to April joined forces with the Rotaract Club of Negombo to donate sanitary items, cover the electricity bill, and host an evening tea party for Anadapura Children's Home, Katana, Negombo. Rotaractors actively participated, making both phases a success and creating memorable moments for all.",
-		imageUrl: "/avenues/community/",
+		imageUrl: "/avenues/community/share.jpg",
 		imageOnLeft: false,
 	},
 ];

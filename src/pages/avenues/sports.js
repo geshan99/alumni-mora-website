@@ -17,7 +17,7 @@ const projectData = [
 		title: "Mora Smash",
 		description:
 			"The Mora Smash Badminton Tournament, jointly organized by the Rotaract Club of Alumni of University of Moratuwa and Rotaract Club of University of Moratuwa, was a competitive and spirited event held at the University of Moratuwa's gymnasium. Participants from multiple universities and clubs engaged in intense badminton matches, vying for the championship. The tournament garnered substantial support from enthusiastic spectators who passionately cheered on the players, creating an atmosphere of sportsmanship and camaraderie. Overall, the tournament proved to be a resounding success, highlighting the joy of competitive badminton and fostering a sense of unity among participants.",
-		imageUrl: "",
+		imageUrl: "/avenues/sports/smash.jpg",
 		imageOnLeft: false,
 	},
 ];

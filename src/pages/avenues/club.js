@@ -24,21 +24,21 @@ const projectData = [
 		title: "Mithuru Sulaga",
 		description:
 			'"Mithuru Sulanga" is a special project that brings together the Rotaract Club of the University of Moratuwa and the Rotaract Club of Alumni of the University of Moratuwa, strengthening their bonds. This event features a musical show where both current and former members showcase their musical talents, spreading joy and gratitude among fellow Rotaractors. Attendees don sarongs and lungis to enjoy the melodious tunes and also indulge in stand-up comedy. It\'s a delightful celebration of music and fellowship that leaves a lasting impact on all participants, both within and outside the Rotaract community.',
-		imageUrl: "/avenues/club/",
+		imageUrl: "/avenues/club/mw.jpg",
 		imageOnLeft: true,
 	},
 	{
 		title: "Club Trip",
 		description:
 			"The Rotaract Club of Alumni of the University of Moratuwa embarked on a memorable two-day trip to Matale on April 30th and May 1st, 2023. This project aimed to foster camaraderie among club members while exploring the stunning natural beauty of Sri Lanka's hill country. The itinerary included visits to renowned tourist destinations in Matale, such as Sembuwaththa, Riverston, Pitawala Pathana, and the Knuckles Mountain Range.Club service directors led the project's organization, with strong support from members who worked diligently to plan and execute a seamless trip, handling transportation, meals, and accommodations. The collaboration with the Rotaract Club of Matale was pivotal, as they provided valuable resources and assistance, contributing significantly to the project's overall success.",
-		imageUrl: "/avenues/club/",
+		imageUrl: "/avenues/club/trip.jpg",
 		imageOnLeft: false,
 	},
 	{
 		title: "Coffee with Alumni Mora",
 		description:
 			"\"Coffee with Alumni Mora\" is an orientation program organized by the Rotaract Alumni Mora. While initially aimed at welcoming the incoming batch, it was open to senior batches unfamiliar with the club. The event's objective was to raise awareness among University of Moratuwa undergraduates about the club's activities. Directors from each avenue shared their past achievements and future plans during the Rotary International year. Entertainment segments kept the crowd engaged, and a concluding Kahoot quiz assessed their involvement in the presentations, measuring their engagement with the club's initiatives. Furthermore panel discussions were conducted with the presence of outstanding past members of the club.",
-		imageUrl: "/avenues/club/",
+		imageUrl: "/avenues/club/coffee.jpeg",
 		imageOnLeft: true,
 	},
 ];
