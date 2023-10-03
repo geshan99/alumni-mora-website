@@ -135,7 +135,7 @@ function History() {
 								borderLeftColor="pink.400"
 							>
 								<Text fontWeight="bold">{dt.president}</Text>
-								<Text>Signature Projects: </Text>
+								<Text>Signature Projects </Text>
 
 								<ul>
 									{dt.projects.map((project, index) => {
