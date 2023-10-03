@@ -11,8 +11,12 @@ const AvenueCard = ({ icon, title, description }) => {
 			overflow="hidden"
 			boxShadow="md"
 			p={4}
-			transition="background-color 0.3s" // Add transition effect
-			_hover={{ bg: "teal.200", cursor: "pointer" }} // Change background color on hover
+			transition="transform 0.3s" // Add transition effect for scaling
+			_hover={{
+				transform: "scale(1.05)",
+				cursor: "pointer",
+				color: "teal.800",
+			}}
 		>
 			<Flex align="center" justify="center" h="100px">
 				<Image src={icon} alt={title} w="80px" h="80px" />
