@@ -70,15 +70,17 @@ function Navbar() {
 					</MenuButton>
 					<MenuList>
 						<MenuItem color="black">
-							<a href="/about/historyPage">History</a>
+							<a href="/about/historyPage.html">History</a>
 						</MenuItem>
 						<MenuItem color="black">
-							<a href="/about/pastPresidents">Past Presidents</a>
+							<a href="/about/pastPresidents.htnl">
+								Past Presidents
+							</a>
 						</MenuItem>
 					</MenuList>
 				</Menu>
 				<Button variant="link" mr={4} _hover={{ color: "pink.500" }}>
-					<a href="/downloads">Downloads</a>
+					<a href="/downloads.html">Downloads</a>
 				</Button>
 				<Menu>
 					<MenuButton
@@ -92,39 +94,41 @@ function Navbar() {
 					</MenuButton>
 					<MenuList>
 						<MenuItem color="black">
-							<a href="/avenues/club">Club Service</a>
+							<a href="/avenues/club.html">Club Service</a>
 						</MenuItem>
 						<MenuItem color="black">
-							<a href="/avenues/community">Community service</a>
+							<a href="/avenues/community.html">
+								Community service
+							</a>
 						</MenuItem>
 						<MenuItem color="black">
-							<a href="/avenues/environmental">
+							<a href="/avenues/environmental.html">
 								Environmental Service
 							</a>
 						</MenuItem>
 						<MenuItem color="black">
-							<a href="/avenues/internation">
+							<a href="/avenues/internation.html">
 								Internation service
 							</a>
 						</MenuItem>
 						<MenuItem color="black">
-							<a href="/avenues/professional">
+							<a href="/avenues/professional.html">
 								Professional Development
 							</a>
 						</MenuItem>
 						<MenuItem color="black">
-							<a href="/avenues/sports">
+							<a href="/avenues/sports.html">
 								Sports and Recreational Activities{" "}
 							</a>
 						</MenuItem>
 					</MenuList>
 				</Menu>
 				<Button variant="link" mr={4} _hover={{ color: "pink.500" }}>
-					<a href="/awards">Awards</a>
+					<a href="/awards.html">Awards</a>
 				</Button>
 
 				<Button variant="link" mr={4} _hover={{ color: "pink.500" }}>
-					<a href="/contactus">Contact Us</a>
+					<a href="/contactus.html">Contact Us</a>
 				</Button>
 			</Box>
 
