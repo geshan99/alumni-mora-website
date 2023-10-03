@@ -13,24 +13,14 @@ import AnnualReportCard from "@/components/downloads/AnnualReportCard";
 
 const annualReports = [
 	{
-		title: "Annual Report 2022",
+		title: "Annual Report 2021-2022",
 		imageUrl: "/logo.png",
-		pdfUrl: "/reports/rpt.pdf",
+		pdfUrl: "/reports/2021_2022.pdf",
 	},
 	{
-		title: "Annual Report 2022",
+		title: "Annual Report 2017-2018",
 		imageUrl: "/logo.png",
-		pdfUrl: "/reports/rpt.pdf",
-	},
-	{
-		title: "Annual Report 2022",
-		imageUrl: "/logo.png",
-		pdfUrl: "/reports/rpt.pdf",
-	},
-	{
-		title: "Annual Report 2022",
-		imageUrl: "/logo.png",
-		pdfUrl: "/reports/rpt.pdf",
+		pdfUrl: "/reports/2017_2018.pdf",
 	},
 ];
 
