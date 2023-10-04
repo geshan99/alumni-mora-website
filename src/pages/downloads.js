@@ -5,6 +5,7 @@ import {
 	ChakraProvider,
 	CSSReset,
 	Text,
+	Box
 } from "@chakra-ui/react";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
@@ -47,6 +48,7 @@ function Downloads() {
 					))}
 				</SimpleGrid>
 			</Flex>
+			<Box mt="3vh"/>
 			<Footer />
 		</ChakraProvider>
 	);

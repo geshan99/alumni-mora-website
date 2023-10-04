@@ -31,7 +31,7 @@ const projectData = [
 		title: "Club Trip",
 		description:
 			"The Rotaract Club of Alumni of the University of Moratuwa embarked on a memorable two-day trip to Matale on April 30th and May 1st, 2023. This project aimed to foster camaraderie among club members while exploring the stunning natural beauty of Sri Lanka's hill country. The itinerary included visits to renowned tourist destinations in Matale, such as Sembuwaththa, Riverston, Pitawala Pathana, and the Knuckles Mountain Range.Club service directors led the project's organization, with strong support from members who worked diligently to plan and execute a seamless trip, handling transportation, meals, and accommodations. The collaboration with the Rotaract Club of Matale was pivotal, as they provided valuable resources and assistance, contributing significantly to the project's overall success.",
-		imageUrl: "/avenues/club/trip.jpg",
+		imageUrl: "/avenues/club/trip1.jpg",
 		imageOnLeft: false,
 	},
 	{

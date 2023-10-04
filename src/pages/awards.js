@@ -126,7 +126,7 @@ function Awards() {
 				<ImageGallery />
 			</Box>
 			<Center>
-				<VStack spacing={4} maxW="5xl" alignItems="center">
+				<VStack spacing={4} maxW="5xl" alignItems="start">
 					{awardData.map((award, index) => (
 						<AwardGroup
 							key={index}

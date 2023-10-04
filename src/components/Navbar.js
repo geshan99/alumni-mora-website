@@ -73,7 +73,7 @@ function Navbar() {
 							<a href="/about/historyPage.html">History</a>
 						</MenuItem>
 						<MenuItem color="black">
-							<a href="/about/pastPresidents.htnl">
+							<a href="/about/pastPresidents.html">
 								Past Presidents
 							</a>
 						</MenuItem>
@@ -107,8 +107,8 @@ function Navbar() {
 							</a>
 						</MenuItem>
 						<MenuItem color="black">
-							<a href="/avenues/internation.html">
-								Internation service
+							<a href="/avenues/international.html">
+								International service
 							</a>
 						</MenuItem>
 						<MenuItem color="black">
