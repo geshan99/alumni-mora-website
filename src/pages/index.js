@@ -5,6 +5,10 @@ import Head from "next/head";
 import HomePagePara from "../components/HomePagePara";
 import AvenueCardContainer from "@/components/AvenueCardContainer";
 import KindredKidneys from "@/components/KinderdKidneys";
+import CountUpCard from "@/components/CountUpCard";
+import ClubInfo from "@/components/ClubInfo";
+import { Box, Flex, VStack } from "@chakra-ui/react";
+import Stats from "@/components/Stats";
 
 export default function Home() {
 	const content =
@@ -79,13 +83,17 @@ export default function Home() {
 					cardData={avenue_data}
 				></AvenueCardContainer>
 				{/* <RotaractDetails></RotaractDetails> */}
-				<KindredKidneys
-					title={title}
-					description={description}
-					buttonText={buttonText}
-					imageUrl="/home/kindered.png"
-					fundUrl="https://gofund.me/49b13769"
-				></KindredKidneys>
+				<Flex justifyContent={"center"}>
+					<KindredKidneys
+						title={title}
+						description={description}
+						buttonText={buttonText}
+						imageUrl="/home/kindered.png"
+						fundUrl="https://gofund.me/49b13769"
+					></KindredKidneys>
+				</Flex>
+
+				<Stats></Stats>
 				<Footer></Footer>
 			</main>
 		</>

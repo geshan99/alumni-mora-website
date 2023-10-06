@@ -17,6 +17,7 @@ const AvenueCard = ({ icon, title, description }) => {
 				cursor: "pointer",
 				color: "teal.800",
 			}}
+			bg="teal.50"
 		>
 			<Flex align="center" justify="center" h="100px">
 				<Image src={icon} alt={title} w="80px" h="80px" />
@@ -25,7 +26,9 @@ const AvenueCard = ({ icon, title, description }) => {
 				<Text fontSize="2xl" fontWeight="bold" mb={2} align="center">
 					{title}
 				</Text>
-				<Text align="center">{description}</Text>
+				<Text align="center" fontWeight={300}>
+					{description}
+				</Text>
 			</Box>
 		</Box>
 	);

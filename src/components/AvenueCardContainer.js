@@ -5,10 +5,10 @@ import AvenueCard from "./AvenueCard";
 
 const AvenueCardContainer = ({ cardData }) => {
 	return (
-		<Box p={4} marginLeft={[5, 0, 10, 5]}>
+		<Box p={4} marginLeft={[0, 0, 10, 5]}>
 			<Grid
 				templateColumns={[
-					"repeat(auto-fill, minmax(300px, 1fr))",
+					"repeat(auto-fill, minmax(250px, 1fr))",
 					"repeat(auto-fill, minmax(300px, 1fr))",
 					"repeat(auto-fill, minmax(300px, 1fr))",
 					"repeat(auto-fill, minmax(250px, 1fr))",

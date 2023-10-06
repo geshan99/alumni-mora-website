@@ -16,6 +16,7 @@ function HomePagePara({ content }) {
 					mt={2}
 					align={["justify", "center", "center"]}
 					fontSize={[16, 16, 18]}
+					fontWeight={300}
 				>
 					{content}
 				</Text>
