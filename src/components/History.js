@@ -1,5 +1,5 @@
 import React from "react";
-import { Flex, Text, Box } from "@chakra-ui/react";
+import { Flex, Text, Box, Image } from "@chakra-ui/react";
 const data = [
 	{
 		year: "Year 2022-2023",
@@ -10,6 +10,7 @@ const data = [
 			"En Vogue: a Beeralu-making workshop in collaboration with Nifty Looms. ",
 			" United we Stand: Strengthen the fellowship between international Rotaractors and focusing on joint initiatives, Joint Bulletin, Twin Club Agreement, and Letterhead Exchanges",
 		],
+		img: "/pastPresidents/ayesh.jpg",
 	},
 	{
 		year: "Year 2021-2022",
@@ -20,6 +21,7 @@ const data = [
 			"DIYer: A session series focusing on daily life skills",
 			"United we Stand: Create a platform to help Rotaractors to learn different languages and to strengthen the fellowship between Rotaractors and focusing on International Service Bulletin, Twin Club Agreement, and Letterhead Exchanges",
 		],
+		img: "/pastPresidents/kavinda.jpg",
 	},
 	{
 		year: "Year 2020-2021",
@@ -30,6 +32,7 @@ const data = [
 			"Battle with Pandemic: International Service initiative in sharing experiences from around theglobe in the face of the COVID - 19 pandemic.",
 			"Marathon Towards Greenery: Environmental service initiative including projects “Gaga Addara” and “Maga Addara”.",
 		],
+		img: "/pastPresidents/anju.jpg",
 	},
 	{
 		year: "Year 2019-2020",
@@ -40,6 +43,7 @@ const data = [
 			"Kindred Kidneys: Community Service initiative to help kidney patients in Sri Lanka",
 			"Share the Joy: Club service and community service-based initiative to celebrate birthdays of members in a worthy way by helping poor people.",
 		],
+		img: "/pastPresidents/hasitha.jpg",
 	},
 	{
 		year: "Year 2018-2019",
@@ -50,6 +54,7 @@ const data = [
 			"Rotaractors for Global Goals",
 			"Share the Joy: Club service and community service-based initiative to celebrate the birthdays of members in a worthy way by helping poor people.",
 		],
+		img: "/pastPresidents/waruna.jpg",
 	},
 	{
 		year: "Year 2017-2018",
@@ -59,6 +64,7 @@ const data = [
 			"Sathkara: Community and Club service-based project",
 			"Together as One",
 		],
+		img: "/pastPresidents/himantha.jpg",
 	},
 	{
 		year: "Year 2016-2017",
@@ -67,6 +73,7 @@ const data = [
 			"Sathkara: Community and Club service-based project",
 			"Ganga Addara: Tree planting project to protect riverbanks",
 		],
+		img: "/pastPresidents/chathuranga.jpg",
 	},
 	{
 		year: "Year 2015-2016",
@@ -75,6 +82,7 @@ const data = [
 			"Ganga Addara: Tree planting project to protect riverbanks",
 			"Sathkara: Community and Club service-based project",
 		],
+		img: "/pastPresidents/hansaka.jpg",
 	},
 	{
 		year: "Year 2014-2015",
@@ -83,6 +91,7 @@ const data = [
 			"We for You: A Series of Community Service Projects",
 			"Get-together: With the past and present members of Alumni Rotaract Mora",
 		],
+		img: "/pastPresidents/dulitha.jpg",
 	},
 	{
 		year: "Year 2013-2014",
@@ -92,6 +101,7 @@ const data = [
 			"First Get-together: With the past and present members of Alumni Rotaract Mora",
 			"We for You: A Series of Community Service Projects",
 		],
+		img: "/pastPresidents/lahiru.jpg",
 	},
 ];
 function History() {
@@ -112,7 +122,7 @@ function History() {
 					return (
 						<Flex
 							key={index}
-							justifyContent="space-between"
+							justifyContent="center"
 							alignItems="center"
 							maxW="800px"
 							m="auto"
@@ -124,8 +134,12 @@ function History() {
 								transform: "scale(1.05)",
 							}}
 						>
-							<Box>
-								<Text fontWeight="bold">{dt.year}</Text>
+							<Box maxW={100}>
+								<Image
+									src={dt.img}
+									alt="Dan Abramov"
+									borderRadius={"full"}
+								/>
 							</Box>
 							<Box
 								boxShadow="0 4px 6px rgba(0, 0, 0, 0.1)"
@@ -134,7 +148,9 @@ function History() {
 								borderLeftWidth="4px"
 								borderLeftColor="pink.400"
 							>
-								<Text fontWeight="bold">{dt.president}</Text>
+								<Text fontWeight="bold">
+									{dt.president + " " + "(" + dt.year + ")"}
+								</Text>
 								<Text>Signature Projects </Text>
 
 								<ul>
@@ -149,7 +165,7 @@ function History() {
 					return (
 						<Flex
 							key={index}
-							justifyContent="space-between"
+							justifyContent="center"
 							alignItems="center"
 							maxW="800px"
 							m="auto"
@@ -168,7 +184,9 @@ function History() {
 								borderRightWidth="4px"
 								borderRightColor="pink.400"
 							>
-								<Text fontWeight="bold">{dt.president}</Text>
+								<Text fontWeight="bold">
+									{dt.president + " " + "(" + dt.year + ")"}
+								</Text>
 								<Text>Signature Projects: </Text>
 
 								<ul>
@@ -177,8 +195,12 @@ function History() {
 									})}
 								</ul>
 							</Box>
-							<Box>
-								<Text fontWeight="bold">{dt.year}</Text>
+							<Box maxW={100}>
+								<Image
+									src={dt.img}
+									alt="Dan Abramov"
+									borderRadius={"full"}
+								/>
 							</Box>
 						</Flex>
 					);
