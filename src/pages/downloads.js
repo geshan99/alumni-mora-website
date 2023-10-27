@@ -18,6 +18,17 @@ const annualReports = [
 		pdfUrl: "/reports/2021_2022.pdf",
 	},
 	{
+		title: "Annual Report 2020-2021",
+		imageUrl: "/logo.png",
+		pdfUrl: "/reports/2020_2021.pdf",
+	},
+	{
+		title: "Annual Report 2019-2020",
+		imageUrl: "/logo.png",
+		pdfUrl: "/reports/2019_2020.pdf",
+	},
+
+	{
 		title: "Annual Report 2017-2018",
 		imageUrl: "/logo.png",
 		pdfUrl: "/reports/2017_2018.pdf",
@@ -25,14 +36,29 @@ const annualReports = [
 ];
 const bulletins = [
 	{
-		title: "Annual Report 2021-2022",
+		title: "The Chronicle - 2020/MAY",
 		imageUrl: "/logo.png",
-		pdfUrl: "/reports/2021_2022.pdf",
+		pdfUrl: "/reports/bulletin_2020_MAY.pdf",
 	},
 	{
-		title: "Annual Report 2017-2018",
+		title: "The Chronicle - 2019/I",
 		imageUrl: "/logo.png",
-		pdfUrl: "/reports/2017_2018.pdf",
+		pdfUrl: "/reports/bulletin_2019_1.pdf",
+	},
+	{
+		title: "The Chronicle - 2019/II",
+		imageUrl: "/logo.png",
+		pdfUrl: "/reports/bulletin_2019_2.pdf",
+	},
+	{
+		title: "ALMANAC",
+		imageUrl: "/logo.png",
+		pdfUrl: "/reports/bulletin_ALMANAC.pdf",
+	},
+	{
+		title: "Community Bell - JULLY",
+		imageUrl: "/logo.png",
+		pdfUrl: "/reports/community_bell_JULLY.pdf",
 	},
 ];
 
