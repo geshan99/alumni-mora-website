@@ -4,7 +4,7 @@ import { Box, Heading, Image, Button } from "@chakra-ui/react";
 function AnnualReportCard({ title, imageUrl, pdfUrl }) {
 	return (
 		<Box borderWidth="1px" borderRadius="lg" overflow="hidden">
-			<Image src={imageUrl} alt={title} w={250} />
+			<Image src={imageUrl} alt={title} w={250} m={5} />
 			<Box p="4">
 				<Heading fontSize="xl">{title}</Heading>
 				<Button colorScheme="teal" mt="2" size="sm">

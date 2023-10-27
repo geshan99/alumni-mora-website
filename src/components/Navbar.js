@@ -73,8 +73,8 @@ function Navbar() {
 							<a href="/about/historyPage.html">History</a>
 						</MenuItem>
 						<MenuItem color="black">
-							<a href="/about/pastPresidents.htnl">
-								Past Presidents
+							<a href="/about/pastPresidents.html">
+								Boad of Officials
 							</a>
 						</MenuItem>
 					</MenuList>

@@ -23,7 +23,7 @@ const ProjectComponent = ({ title, description, imageUrl, imageOnLeft }) => {
 				mr={[0, 0, 4, 4]}
 				mb={[4, 4, , 0, 0]}
 				ml={[0, 0, 0, 4]}
-				maxW={["100%", "100%", "350px", "600px"]}
+				maxW={["100%", "100%", "350px", "400px"]}
 			/>
 			<Box flex="1">
 				<Text fontSize="xl" fontWeight="bold" mb={2}>

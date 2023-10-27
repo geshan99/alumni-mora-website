@@ -52,7 +52,7 @@ function PastPresidentsPage() {
 				padding="2rem"
 			>
 				<Text fontSize="xl" fontWeight="bold" mb="2rem">
-					Past Presidents
+					Boad of Officials
 				</Text>
 				<Flex flexWrap="wrap" justifyContent="center">
 					{pastPresidentsData.map((president, index) => (

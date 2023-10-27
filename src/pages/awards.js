@@ -1,4 +1,5 @@
 import AwardGroup from "@/components/AwardGroup";
+import AwardSlider from "@/components/AwardSlider";
 import Footer from "@/components/Footer";
 import ImageGallery from "@/components/ImageGallery";
 import Navbar from "@/components/Navbar";
@@ -9,11 +10,7 @@ const awardData = [
 	{
 		heading: "RI year 2016-17",
 		subHeading: "Awards at the 26th Rotaract District Conference",
-		awards: [
-			"Best in Show Award - 2021",
-			"Outstanding Service Award - 2020",
-			"Top Innovator Award - 2019",
-		],
+		awards: ["Best Cluster Project"],
 	},
 	{
 		heading: "RI year 2017-18",
@@ -32,6 +29,13 @@ const awardData = [
 			" Spirit of Service - Rtr. Rochelle Silva",
 			"Best Cluster Project – Habitat for Humanity",
 			"Rotaractor of 3rdQuarter - Rtr. Rochelle Silva",
+			"Rotaract Lifetime Achievement Award- Rtr. PP. Ridwan Shariffdeen",
+		],
+	},
+	{
+		heading: "RI year 2018-19",
+		subHeading: "Awards at the 29th Rotaract District Assembly",
+		awards: [
 			"Rotaract Lifetime Achievement Award- Rtr. PP. Ridwan Shariffdeen",
 		],
 	},
@@ -118,12 +122,11 @@ function Awards() {
 	const [isLargeScreen] = useMediaQuery("(min-width: 768px)");
 
 	return (
-		//
 		<>
 			<Navbar />
 			<PageHeader title="Awards" />
-			<Box p={4}>
-				<ImageGallery />
+			<Box>
+				<AwardSlider></AwardSlider>
 			</Box>
 			<Center>
 				<VStack spacing={4} maxW="5xl" alignItems="center">

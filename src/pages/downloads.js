@@ -23,6 +23,18 @@ const annualReports = [
 		pdfUrl: "/reports/2017_2018.pdf",
 	},
 ];
+const bulletins = [
+	{
+		title: "Annual Report 2021-2022",
+		imageUrl: "/logo.png",
+		pdfUrl: "/reports/2021_2022.pdf",
+	},
+	{
+		title: "Annual Report 2017-2018",
+		imageUrl: "/logo.png",
+		pdfUrl: "/reports/2017_2018.pdf",
+	},
+];
 
 function Downloads() {
 	return (
@@ -38,6 +50,23 @@ function Downloads() {
 			<Flex justify="center" py={4}>
 				<SimpleGrid columns={{ base: 1, sm: 2, md: 4 }} spacing={4}>
 					{annualReports.map((report, index) => (
+						<AnnualReportCard
+							key={index}
+							title={report.title}
+							imageUrl={report.imageUrl}
+							pdfUrl={report.pdfUrl}
+						/>
+					))}
+				</SimpleGrid>
+			</Flex>
+			<Flex justify="center" py={4}>
+				<Text fontSize="xl" fontWeight="bold" mb={4}>
+					Bulletins
+				</Text>
+			</Flex>
+			<Flex justify="center" py={4}>
+				<SimpleGrid columns={{ base: 1, sm: 2, md: 4 }} spacing={4}>
+					{bulletins.map((report, index) => (
 						<AnnualReportCard
 							key={index}
 							title={report.title}
