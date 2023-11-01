@@ -129,7 +129,7 @@ function Awards() {
 				<AwardSlider></AwardSlider>
 			</Box>
 			<Center>
-				<VStack spacing={4} maxW="5xl" alignItems="center">
+				<VStack spacing={4} maxW="5xl" alignItems="left">
 					{awardData.map((award, index) => (
 						<AwardGroup
 							key={index}

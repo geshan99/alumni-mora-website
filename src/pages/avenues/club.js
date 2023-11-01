@@ -10,14 +10,14 @@ const projectData = [
 		title: "Fellowship diaries ",
 		description:
 			"In RI year 2022-23 this project aimed to strengthen bonds between Rotaract clubs, cultivate new friendships, and contribute to societal betterment through collaboration. It unfolded in three phases, involving visits to various Rotaract clubs across the country.In the first phase, the project team journeyed to the Rotaract Club of Hatton Kotagala for a two-day visit. The visit featured cultural and culinary exchanges, as well as sightseeing, fostering deeper connections and friendships. The second phase took the team to the Rotaract Club of Negombo for a day of fellowship and goodwill. The visit included a heartwarming visit to an elder's home, followed by a donation to the Anadapura Children's Home. The day concluded with joint activities at a church and the beach, further strengthening bonds.In the third phase, the team visited the Rotaract Club of Matale during the club's annual trip. This visit encompassed sightseeing, enjoyable activities, fellowship, and a meaningful tree planting initiative in the Naula area near the Kandalama Wewa feeder canal. These interactions promoted unity and collaboration among Rotaract clubs while contributing positively to society.",
-		imageUrl: "/avenues/club/fellow.jpg",
+		imageUrl: "/avenues/club/Fellowship Diaries_.jpg",
 		imageOnLeft: true,
 	},
 	{
 		title: "Let’s meet ",
 		description:
 			'In RI year 2022-23, this project aimed to foster camaraderie among members. Five unique events were held over the year, including a virtual "Truth and Lies" session, a "Guess the Song" competition, a heartwarming Christmas celebration with children at the Noguchi Child Development Center, a lively "Cricket Night" at Club Fusion, and a joyful "Trivia Night" in collaboration with the Rotaract Club of Mount Carmel College, India, to celebrate the International Day of Happiness. These events brought members together, promoting fun, bonding, and friendship.',
-		imageUrl: "/avenues/club/lets.png",
+		imageUrl: "/avenues/club/Let_s Meet_.jpg",
 		imageOnLeft: false,
 	},
 	{
@@ -31,7 +31,7 @@ const projectData = [
 		title: "Club Trip",
 		description:
 			"The Rotaract Club of Alumni of the University of Moratuwa embarked on a memorable two-day trip to Matale on April 30th and May 1st, 2023. This project aimed to foster camaraderie among club members while exploring the stunning natural beauty of Sri Lanka's hill country. The itinerary included visits to renowned tourist destinations in Matale, such as Sembuwaththa, Riverston, Pitawala Pathana, and the Knuckles Mountain Range.Club service directors led the project's organization, with strong support from members who worked diligently to plan and execute a seamless trip, handling transportation, meals, and accommodations. The collaboration with the Rotaract Club of Matale was pivotal, as they provided valuable resources and assistance, contributing significantly to the project's overall success.",
-		imageUrl: "/avenues/club/trip.jpg",
+		imageUrl: "/avenues/club/trip1.jpg",
 		imageOnLeft: false,
 	},
 	{

@@ -92,7 +92,7 @@ const pastPresidentsData = [
 	},
 	{
 		name: "Rtr.Chamodi Samarasingha",
-		possition: "CoEdCo-Director Club Serviceitor",
+		possition: "CoEdCo-Director Club Service",
 		imageUrl: "/bod/chamodi.jpg",
 	},
 	{
@@ -213,13 +213,12 @@ function PastPresidentsPage() {
 				</Text>
 				<Flex flexWrap="wrap" justifyContent="center">
 					{pastPresidentsData.map((president, index) => (
-						<Box key={index} m="1rem" textAlign="center">
+						<Box key={index} mx="5rem" my="1rem" textAlign="center">
 							<Image
 								src={president.imageUrl}
 								alt={president.name}
 								width="200px"
 								height="200px"
-								borderRadius="full"
 								marginBottom="0.5rem"
 							/>
 							<Text fontWeight={"bold"}>

@@ -10,14 +10,14 @@ const projectData = [
 		title: "DIYER",
 		description:
 			'"DIYer," an innovative initiative by the Rotaract Club of Alumni of the University of Moratuwa, promotes professional development through a Do It Yourself (DIY) approach. This project emphasizes essential handyman skills and knowledge beneficial for entrepreneurial ventures. It targets the general public, especially youth, interested in acquiring practical skills for everyday problem-solving.The project\'s phase focused on "How\'s your bike doing?" and was conducted online. Rtr. PP Paveen Perera, Past President of the Rotaract Club of the University of Moratuwa, led the session. It covered basic bicycle maintenance, including types, cleaning, flat tire repair, braking, cable replacement, gear fixing, and proper gearing, empowering individuals with valuable everyday skills.This year project is mainly focusing on motor mechanics, energy auditing and photography while adding physical workshops. ',
-		imageUrl: "/avenues/prof/diyer.jpg",
+		imageUrl: "/avenues/prof/DIYER_.jpg",
 		imageOnLeft: true,
 	},
 	{
 		title: "En Vogue ",
 		description:
 			'"En Vogue" is an awareness project by the Rotaract Club of Alumni of the University of Moratuwa, focusing on fabric-making techniques. It comprises sessions such as Beeralu lace crafting, crochet learning, patch point creation, and paper piecing decorations. Due to high demand, the club organized "En Vogue 2.0," a Beeralu-making workshop in collaboration with Nifty Looms. The workshop took place in two phases, aiming to provide hands-on experience in traditional Sri Lankan crafts, starting with Beeralu Weaving. This initiative offers valuable skills to young designers and participants received E-certificates upon completion.This year mainly focusing on How to build your own fashion brand, Beeralu, Batik, Natural Dye, Fundamentals of fashion design and Journey of a designer as paid and free workshop sessions.',
-		imageUrl: "/avenues/prof/envgue.jpeg",
+		imageUrl: "/avenues/prof/En Vogue_.jpg",
 		imageOnLeft: false,
 	},
 	{

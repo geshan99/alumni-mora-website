@@ -108,7 +108,7 @@ function Navbar() {
 						</MenuItem>
 						<MenuItem color="black">
 							<a href="/avenues/internation.html">
-								Internation service
+								International service
 							</a>
 						</MenuItem>
 						<MenuItem color="black">

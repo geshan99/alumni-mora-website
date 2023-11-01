@@ -19,6 +19,7 @@ function AwardSlider() {
 			showThumbs={false}
 			autoPlay={true}
 			interval={1000}
+			showStatus={false}
 		>
 			{images.map((image, index) => (
 				<div key={index}>

@@ -16,7 +16,7 @@ function GetinTouch() {
 				>
 					{/* Left Image */}
 					<Image
-						src="/home/getin.jpg"
+						src="/Contact_Us.png"
 						alt="Image"
 						boxSize={{ base: "100%", md: "500px" }}
 						objectFit="cover"
@@ -29,7 +29,7 @@ function GetinTouch() {
 						base: "100%",
 						md: "300px",
 						lg: "400px",
-						xl: "700px",
+						xl: "600px",
 					}}
 					// ml={[0, 0, 4, 0]}
 				>

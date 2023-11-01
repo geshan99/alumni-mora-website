@@ -151,7 +151,7 @@ function History() {
 								<Text fontWeight="bold">
 									{dt.president + " " + "(" + dt.year + ")"}
 								</Text>
-								<Text>Signature Projects </Text>
+								<Text>Signature Projects:</Text>
 
 								<ul>
 									{dt.projects.map((project, index) => {
