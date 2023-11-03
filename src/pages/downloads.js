@@ -96,7 +96,7 @@ function Downloads() {
 				</SimpleGrid>
 			</Flex>
 			<Flex justify="center" py={4}>
-				<Text fontSize="xl" fontWeight="bold" mb={4}>
+				<Text fontSize="xl" fontWeight="bold" mb={4} color={"teal"}>
 					Bulletins
 				</Text>
 			</Flex>
