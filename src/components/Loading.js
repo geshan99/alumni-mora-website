@@ -34,7 +34,7 @@ function LoadingAnimation() {
 					}}
 				>
 					<Box>
-						<Spinner size="xl" color="pink.500" thickness="4px" />
+						<Spinner size="xl" color="teal.500" thickness="4px" />
 					</Box>
 				</motion.div>
 			) : null}

@@ -112,7 +112,7 @@ function History() {
 				textAlign="center"
 				m="4"
 				fontSize="2xl"
-				color="pink.500"
+				color="teal.500"
 			>
 				History
 			</Text>
@@ -127,7 +127,7 @@ function History() {
 							maxW="800px"
 							m="auto"
 							p="4"
-							border="4px solid pink.400"
+							border="4px solid teal.400"
 							transition="transform 0.3s"
 							_hover={{
 								cursor: "pointer",
@@ -146,7 +146,7 @@ function History() {
 								p={{ base: "5", lg: "10" }}
 								m="4"
 								borderLeftWidth="4px"
-								borderLeftColor="pink.400"
+								borderLeftColor="teal.400"
 							>
 								<Text fontWeight="bold">
 									{dt.president + " " + "(" + dt.year + ")"}
@@ -170,7 +170,7 @@ function History() {
 							maxW="800px"
 							m="auto"
 							p="4"
-							border="4px solid pink.400"
+							border="4px solid teal.400"
 							transition="transform 0.3s"
 							_hover={{
 								cursor: "pointer",
@@ -182,7 +182,7 @@ function History() {
 								p={{ base: "5", lg: "10" }}
 								m="4"
 								borderRightWidth="4px"
-								borderRightColor="pink.400"
+								borderRightColor="teal.400"
 							>
 								<Text fontWeight="bold">
 									{dt.president + " " + "(" + dt.year + ")"}
@@ -220,7 +220,7 @@ function History() {
 					p={{ base: "5", lg: "10" }}
 					m="4"
 					borderLeftWidth="4px"
-					borderLeftColor="pink.400"
+					borderLeftColor="teal.400"
 				>
 					<Text fontWeight="bold">Sub heading</Text>
 					<Text>ssvdh hadghdf hgahd fhdgf </Text>
@@ -236,7 +236,7 @@ function History() {
 					p={{ base: "5", lg: "10" }}
 					m="4"
 					borderRightWidth="4px"
-					borderRightColor="pink.400"
+					borderRightColor="teal.400"
 				>
 					<Text fontWeight="bold">Sub heading</Text>
 					<Text>ssvdh hadghdf hgahd fhdgf </Text>

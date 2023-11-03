@@ -41,7 +41,7 @@ function Navbar() {
 			<Box>
 				<a href="/">
 					<Image
-						src="/logo1.png"
+						src="/logo_b.png"
 						alt="Logo"
 						width="250px"
 						height="auto"
@@ -54,7 +54,7 @@ function Navbar() {
 				width={{ base: "full", md: "auto" }}
 				mt={{ base: 4, md: 0 }}
 			>
-				<Button variant="link" mr={4} _hover={{ color: "pink.500" }}>
+				<Button variant="link" mr={4} _hover={{ color: "teal.500" }}>
 					<a href="/">Home</a>
 				</Button>
 
@@ -63,7 +63,7 @@ function Navbar() {
 						as={Button}
 						variant="link"
 						mr={4}
-						_hover={{ color: "pink.500" }}
+						_hover={{ color: "teal.500" }}
 						rightIcon={<ChevronDownIcon />}
 					>
 						About
@@ -79,7 +79,7 @@ function Navbar() {
 						</MenuItem>
 					</MenuList>
 				</Menu>
-				<Button variant="link" mr={4} _hover={{ color: "pink.500" }}>
+				<Button variant="link" mr={4} _hover={{ color: "teal.500" }}>
 					<a href="/downloads.html">Downloads</a>
 				</Button>
 				<Menu>
@@ -87,7 +87,7 @@ function Navbar() {
 						as={Button}
 						variant="link"
 						mr={4}
-						_hover={{ color: "pink.500" }}
+						_hover={{ color: "teal.500" }}
 						rightIcon={<ChevronDownIcon />}
 					>
 						Avenues
@@ -123,17 +123,17 @@ function Navbar() {
 						</MenuItem>
 					</MenuList>
 				</Menu>
-				<Button variant="link" mr={4} _hover={{ color: "pink.500" }}>
+				<Button variant="link" mr={4} _hover={{ color: "teal.500" }}>
 					<a href="/awards.html">Awards</a>
 				</Button>
 
-				<Button variant="link" mr={4} _hover={{ color: "pink.500" }}>
+				<Button variant="link" mr={4} _hover={{ color: "teal.500" }}>
 					<a href="/contactus.html">Contact Us</a>
 				</Button>
 			</Box>
 
 			<Box>
-				<Button variant="solid" colorScheme="pink">
+				<Button variant="solid" colorScheme="teal">
 					Blog
 				</Button>
 			</Box>

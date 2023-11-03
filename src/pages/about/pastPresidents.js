@@ -208,7 +208,7 @@ function PastPresidentsPage() {
 				justifyContent="center"
 				padding="2rem"
 			>
-				<Text fontSize="xl" fontWeight="bold" mb="2rem">
+				<Text fontSize="xl" fontWeight="bold" mb="2rem" color="teal">
 					Boad of Officials
 				</Text>
 				<Flex flexWrap="wrap" justifyContent="center">

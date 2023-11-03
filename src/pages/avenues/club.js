@@ -50,7 +50,7 @@ function Club() {
 			<PageHeader title="Avenues" />
 			<Center>
 				<Box maxW="xl" textAlign="center" py={8}>
-					<Heading as="h1" size="xl" mb={4}>
+					<Heading as="h1" size="xl" mb={4} color={"teal"}>
 						Club Service
 					</Heading>
 				</Box>

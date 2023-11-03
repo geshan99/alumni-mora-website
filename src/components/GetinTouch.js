@@ -42,7 +42,7 @@ function GetinTouch() {
 							<Icon
 								as={MdLocationOn}
 								fontSize="3xl"
-								color="pink.500"
+								color="teal.500"
 								mr="2"
 							/>
 							<Text fontSize="md" fontWeight="700">
@@ -57,7 +57,7 @@ function GetinTouch() {
 							<Icon
 								as={MdEmail}
 								fontSize="2xl"
-								color="pink.500"
+								color="teal.500"
 								mr="2"
 							/>
 							<Text fontSize="md" fontWeight="700">
@@ -72,7 +72,7 @@ function GetinTouch() {
 							<Icon
 								as={MdPhone}
 								fontSize="2xl"
-								color="pink.500"
+								color="teal.500"
 								mr="2"
 							/>
 							<Text fontSize="md" fontWeight="700">

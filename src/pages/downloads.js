@@ -14,60 +14,60 @@ import AnnualReportCard from "@/components/downloads/AnnualReportCard";
 const annualReports = [
 	{
 		title: "Annual Report 2022-2023",
-		imageUrl: "/logo.png",
+		imageUrl: "/logo_b.png",
 		pdfUrl: "/reports/2022_2023.pdf",
 	},
 	{
 		title: "Annual Report 2021-2022",
-		imageUrl: "/logo.png",
+		imageUrl: "/logo_b.png",
 		pdfUrl: "/reports/2021_2022.pdf",
 	},
 	{
 		title: "Annual Report 2021-2022",
-		imageUrl: "/logo.png",
+		imageUrl: "/logo_b.png",
 		pdfUrl: "/reports/2021_2022.pdf",
 	},
 	{
 		title: "Annual Report 2020-2021",
-		imageUrl: "/logo.png",
+		imageUrl: "/logo_b.png",
 		pdfUrl: "/reports/2020_2021.pdf",
 	},
 	{
 		title: "Annual Report 2019-2020",
-		imageUrl: "/logo.png",
+		imageUrl: "/logo_b.png",
 		pdfUrl: "/reports/2019_2020.pdf",
 	},
 
 	{
 		title: "Annual Report 2017-2018",
-		imageUrl: "/logo.png",
+		imageUrl: "/logo_b.png",
 		pdfUrl: "/reports/2017_2018.pdf",
 	},
 ];
 const bulletins = [
 	{
 		title: "The Chronicle - 2020/MAY",
-		imageUrl: "/logo.png",
+		imageUrl: "/logo_b.png",
 		pdfUrl: "/reports/bulletin_2020_MAY.pdf",
 	},
 	{
 		title: "The Chronicle - 2019/I",
-		imageUrl: "/logo.png",
+		imageUrl: "/logo_b.png",
 		pdfUrl: "/reports/bulletin_2019_1.pdf",
 	},
 	{
 		title: "The Chronicle - 2019/II",
-		imageUrl: "/logo.png",
+		imageUrl: "/logo_b.png",
 		pdfUrl: "/reports/bulletin_2019_2.pdf",
 	},
 	{
 		title: "ALMANAC",
-		imageUrl: "/logo.png",
+		imageUrl: "/logo_b.png",
 		pdfUrl: "/reports/bulletin_ALMANAC.pdf",
 	},
 	{
 		title: "Community Bell - JULLY",
-		imageUrl: "/logo.png",
+		imageUrl: "/logo_b.png",
 		pdfUrl: "/reports/community_bell_JULLY.pdf",
 	},
 ];
@@ -79,7 +79,7 @@ function Downloads() {
 			<Navbar />
 			<PageHeader title="Downloads" />
 			<Flex justify="center" py={4}>
-				<Text fontSize="xl" fontWeight="bold" mb={4}>
+				<Text fontSize="xl" fontWeight="bold" mb={4} color={"teal"}>
 					Annual Reports
 				</Text>
 			</Flex>
