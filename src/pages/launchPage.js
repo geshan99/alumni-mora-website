@@ -14,7 +14,7 @@ function LaunchPage() {
 		// Wait for the animation to complete before redirecting
 		setTimeout(() => {
 			window.location.href = "/";
-		}, 2000); // Adjust the delay based on your animation duration
+		}, 600); // Adjust the delay based on your animation duration
 	};
 
 	const doorStyle = {
