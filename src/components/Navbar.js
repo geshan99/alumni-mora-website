@@ -134,7 +134,7 @@ function Navbar() {
 
 			<Box>
 				<Button variant="solid" colorScheme="teal">
-					<a href="http://43.204.66.226/">Blog</a>
+					<a href="/blog.html">Blog</a>
 				</Button>
 			</Box>
 		</Flex>

@@ -23,7 +23,7 @@ const pastPresidentsData = [
 	{
 		name: "Rtr.Malitha Gunawardhana",
 		possition: "Vice President - Club Service",
-		imageUrl: "/bod/malitha.jpeg",
+		imageUrl: "/bod/malitha1.jpeg",
 	},
 	{
 		name: "Rtr.Gihara Wickramatunge",
@@ -33,7 +33,7 @@ const pastPresidentsData = [
 	{
 		name: "Rtr.Samali Senevirathne",
 		possition: "Vice President - International Service",
-		imageUrl: "/bod/samali.jpeg",
+		imageUrl: "/bod/samali1.jpeg",
 	},
 	{
 		name: "Rtr.Sachin Silva",
@@ -88,7 +88,7 @@ const pastPresidentsData = [
 	{
 		name: "Rtr.Prasadi Weerakkodi",
 		possition: "Co Editor",
-		imageUrl: "/bod/prasadi.jpeg",
+		imageUrl: "/bod/prasadi1.jpeg",
 	},
 	{
 		name: "Rtr.Chamodi Samarasingha",
@@ -178,12 +178,12 @@ const pastPresidentsData = [
 	{
 		name: "Rtr.Sathira Liyanapathirana",
 		possition: "Director - Membership Develpoment",
-		imageUrl: "/bod/sathira.jpeg",
+		imageUrl: "/bod/sathira1.jpeg",
 	},
 	{
 		name: "Rtr.Imal Thiranga",
 		possition: "Co-Director Sports",
-		imageUrl: "/bod/imal.jpeg",
+		imageUrl: "/bod/imal1.jpeg",
 	},
 	{
 		name: "Rtr.Yasiru Wijayasiri",

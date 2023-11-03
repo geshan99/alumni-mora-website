@@ -100,7 +100,7 @@ const awardData = [
 	},
 	{
 		heading: "RI year 2022-23",
-		subHeading: "",
+		subHeading: "Awards at the 33rd Rotaract District Assembly",
 		awards: [
 			"Rotaract District Citation - Gold Distinction",
 			"Most Outstanding project focused on Rotary Focus Area - Health, safety and communal well being  2022-23 Silver Award - Kindred Kidneys",
