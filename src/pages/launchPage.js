@@ -2,28 +2,33 @@
 import { useState } from "react";
 import Link from "next/link";
 import { Button, Center, Heading, Box } from "@chakra-ui/react";
-import ThreeAnimation from "../components/ThreeAnimation"; // Import the ThreeAnimation component
+import Lottie from "lottie-react";
+import animationData from "../components/launch.json"; // Use the correct path to your animation JSON file
 
 function LaunchPage() {
 	const [isDoorOpen, setDoorOpen] = useState(false);
 
 	const handleLaunch = () => {
 		setDoorOpen(true);
+
 		// Wait for the animation to complete before redirecting
 		setTimeout(() => {
 			window.location.href = "/";
-		}, 1000); // Adjust the delay based on your animation duration
+		}, 2000); // Adjust the delay based on your animation duration
 	};
 
 	const doorStyle = {
-		animation: isDoorOpen ? "door-opening 1s ease" : undefined, // Apply the animation only when isDoorOpen is true
+		animation: isDoorOpen ? "door-opening 1s ease" : undefined,
 		transformOrigin: "0% 50%",
 	};
 
 	return (
 		<Center h="100vh" flexDirection="column">
 			<Heading size="xl" mb="4">
-				Welcome to Our Website
+				Welcome to
+			</Heading>
+			<Heading size="xl" mb="4" color={"teal"}>
+				Official Website of Rotaract Alumni Mora
 			</Heading>
 			<Box
 				style={doorStyle}
@@ -31,16 +36,22 @@ function LaunchPage() {
 					if (isDoorOpen) setDoorOpen(false);
 				}}
 			>
-				<Button
-					colorScheme="teal"
-					size="lg"
-					onClick={handleLaunch}
-					disabled={isDoorOpen}
-				>
-					Launch
-				</Button>
+				<Lottie
+					animationData={animationData}
+					loop={true}
+					play={!isDoorOpen}
+					style={{ width: 300, height: 300 }}
+				/>
 			</Box>
-			{/* <ThreeAnimation /> Add the Three.js animation */}
+
+			<Button
+				colorScheme="teal"
+				size="lg"
+				onClick={handleLaunch}
+				disabled={isDoorOpen}
+			>
+				Launch
+			</Button>
 		</Center>
 	);
 }
