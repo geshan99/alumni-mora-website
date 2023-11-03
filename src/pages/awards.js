@@ -99,13 +99,13 @@ const awardData = [
 		],
 	},
 	{
-		heading: "RI year 2021-22",
+		heading: "RI year 2022-23",
 		subHeading: "",
 		awards: [
 			"Rotaract District Citation - Gold Distinction",
-			"Most Outstanding project focused on Rotary Focus Area - Health, safety and communal well being  2022-23 Silver Award -- Kindred Kidneys",
-			"Most Outstanding project focused on Rotary Focus Area - Disease prevention and treatment 2022-23 Bronze Award -- Kindred Kidneys",
-			"Most Outstanding Initiative with a Rotary Club 2022 - 23(Bronze Award) -- Dream Cricket",
+			"Most Outstanding project focused on Rotary Focus Area - Health, safety and communal well being  2022-23 Silver Award - Kindred Kidneys",
+			"Most Outstanding project focused on Rotary Focus Area - Disease prevention and treatment 2022-23 Bronze Award - Kindred Kidneys",
+			"Most Outstanding Initiative with a Rotary Club 2022 - 23(Bronze Award) - Dream Cricket",
 			"Rotaract Lifetime Award - Rtr.PP Himantha Alahakoon",
 			"Gold Award for the Recognition of the Spirit of Service- Rtr. Nimesh Kavinda",
 			"Secretary of the first quarter  - Rtr. Lakshani Pathirage ",

@@ -12,7 +12,7 @@ const pastPresidentsData = [
 	},
 	{
 		name: "Rtr.Ayesh Weerasinghe",
-		possition: "Immediate Past President",
+		possition: "Immediate Past Preshaident",
 		imageUrl: "/bod/ayesh.jpg",
 	},
 	{
@@ -23,7 +23,7 @@ const pastPresidentsData = [
 	{
 		name: "Rtr.Malitha Gunawardhana",
 		possition: "Vice President - Club Service",
-		imageUrl: "/bod/malitha.jpg",
+		imageUrl: "/bod/malitha.jpeg",
 	},
 	{
 		name: "Rtr.Gihara Wickramatunge",
@@ -33,21 +33,21 @@ const pastPresidentsData = [
 	{
 		name: "Rtr.Samali Senevirathne",
 		possition: "Vice President - International Service",
-		imageUrl: "/bod/samali.jpg",
+		imageUrl: "/bod/samali.jpeg",
 	},
 	{
 		name: "Rtr.Sachin Silva",
 		possition: "Vice President - Professional Development",
-		imageUrl: "/bod/sachin.jpg",
+		imageUrl: "/bod/sachin.jpeg",
 	},
 	{
 		name: "Rtr.Danushi Suriyarachchi",
-		possition: "Joint Secretaries",
+		possition: "Joint Secretary",
 		imageUrl: "/bod/danushi.jpg",
 	},
 	{
 		name: "Rtr.Nikith Fernando",
-		possition: "Joint Secretaries",
+		possition: "Joint Secretary",
 		imageUrl: "/bod/nikith.jpg",
 	},
 	{
@@ -58,7 +58,7 @@ const pastPresidentsData = [
 	{
 		name: "Rtr.Hiran Rajasuriya",
 		possition: "Treasurer",
-		imageUrl: "/bod/hiran.jpg",
+		imageUrl: "/bod/hiran.jpeg",
 	},
 	{
 		name: "Rtr.Supul Pushpakumara",
@@ -78,7 +78,7 @@ const pastPresidentsData = [
 	{
 		name: "Rtr.Dushan Kavishka",
 		possition: "Co Editor",
-		imageUrl: "/bod/dushan.jpg",
+		imageUrl: "/bod/dushan.jpeg",
 	},
 	{
 		name: "Rtr.Himav Karunaratne",
@@ -88,11 +88,11 @@ const pastPresidentsData = [
 	{
 		name: "Rtr.Prasadi Weerakkodi",
 		possition: "Co Editor",
-		imageUrl: "/bod/prasadi.jpg",
+		imageUrl: "/bod/prasadi.jpeg",
 	},
 	{
 		name: "Rtr.Chamodi Samarasingha",
-		possition: "CoEdCo-Director Club Service",
+		possition: "Co-Director Club Service",
 		imageUrl: "/bod/chamodi.jpg",
 	},
 	{
@@ -117,12 +117,12 @@ const pastPresidentsData = [
 	},
 	{
 		name: "Rtr.Chathurika Wijesooriya",
-		possition: "Co-director - Environmental Service",
+		possition: "Co-Director - Environmental Service",
 		imageUrl: "/bod/chathurika.jpg",
 	},
 	{
 		name: "Rtr.Samanthika Rajapaksha",
-		possition: "Co-director - Environmental Service",
+		possition: "Co-Director - Environmental Service",
 		imageUrl: "/bod/samanthika.jpg",
 	},
 	{
@@ -148,16 +148,16 @@ const pastPresidentsData = [
 	{
 		name: "Rtr.Upeksha Erandi",
 		possition: "Partnership Development Director",
-		imageUrl: "/bod/upeksha.jpg",
+		imageUrl: "/bod/upeksha.jpeg",
 	},
 	{
 		name: "Rtr.Aditha Pathiraja",
-		possition: "Co-director - Public Relations",
+		possition: "Co-Director - Public Relations",
 		imageUrl: "/bod/aditha.jpg",
 	},
 	{
 		name: "Rtr.Nirodha Sandaruwan",
-		possition: "Co-director - Public Relations",
+		possition: "Co-Director - Public Relations",
 		imageUrl: "/bod/nirodha.jpg",
 	},
 	{
@@ -178,12 +178,12 @@ const pastPresidentsData = [
 	{
 		name: "Rtr.Sathira Liyanapathirana",
 		possition: "Director - Membership Develpoment",
-		imageUrl: "/bod/sathira.jpg",
+		imageUrl: "/bod/sathira.jpeg",
 	},
 	{
 		name: "Rtr.Imal Thiranga",
 		possition: "Co-Director Sports",
-		imageUrl: "/bod/imal.jpg",
+		imageUrl: "/bod/imal.jpeg",
 	},
 	{
 		name: "Rtr.Yasiru Wijayasiri",

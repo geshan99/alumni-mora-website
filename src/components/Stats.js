@@ -31,13 +31,43 @@ function Stats() {
 					flexWrap={flexWrapValue}
 					w={{ base: "100%", md: "500px" }}
 				>
-					<Box mb={{ base: 4, md: 0 }}>
+					<Box
+						mb={{ base: 4, md: 0 }}
+						boxShadow={"md"}
+						p={3}
+						borderRadius={"10%"}
+						transition="transform 0.3s" // Add transition effect for scaling
+						_hover={{
+							transform: "scale(1.05)",
+							cursor: "pointer",
+						}}
+					>
 						<CountUpCard title="Membership" value="80+" />
 					</Box>
-					<Box mb={{ base: 4, md: 0 }}>
+					<Box
+						mb={{ base: 4, md: 0 }}
+						boxShadow={"md"}
+						p={3}
+						borderRadius={"10%"}
+						transition="transform 0.3s" // Add transition effect for scaling
+						_hover={{
+							transform: "scale(1.05)",
+							cursor: "pointer",
+						}}
+					>
 						<CountUpCard title="Volunteer Hours" value="10,000+" />
 					</Box>
-					<Box mb={{ base: 4, md: 0 }}>
+					<Box
+						mb={{ base: 4, md: 0 }}
+						boxShadow={"md"}
+						p={3}
+						borderRadius={"10%"}
+						transition="transform 0.3s" // Add transition effect for scaling
+						_hover={{
+							transform: "scale(1.05)",
+							cursor: "pointer",
+						}}
+					>
 						<CountUpCard title="Projects" value="30+" />
 					</Box>
 				</Flex>

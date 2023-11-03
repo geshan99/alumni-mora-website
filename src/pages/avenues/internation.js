@@ -37,7 +37,7 @@ function Internation() {
 			<Center>
 				<Box maxW="xl" textAlign="center" py={8}>
 					<Heading as="h1" size="xl" mb={4}>
-						Internation Service
+						International Service
 					</Heading>
 				</Box>
 			</Center>
