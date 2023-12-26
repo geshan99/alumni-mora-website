@@ -46,6 +46,11 @@ const annualReports = [
 ];
 const bulletins = [
 	{
+		title: "Vibrant Voyages - 1st Quarter",
+		imageUrl: "/logo_b.png",
+		pdfUrl: "/reports/Vibrant Voyages Rotaract Alumni Mora Odyssey - 1st Quarter.pdf",
+	},
+	{
 		title: "The Chronicle - 2020/MAY",
 		imageUrl: "/logo_b.png",
 		pdfUrl: "/reports/bulletin_2020_MAY.pdf",

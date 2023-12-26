@@ -14,7 +14,7 @@ function AnnualReportCard({ title, imageUrl, pdfUrl }) {
 						target="_blank"
 						rel="noreferrer"
 					>
-						Download Report
+						Download
 					</a>
 				</Button>
 			</Box>
