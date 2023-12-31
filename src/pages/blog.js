@@ -19,7 +19,7 @@ function Blog() {
 					pr={{ base: 0, md: 10 }}
 				>
 					<Heading size="xl" ml={{ base: 0, lg: 20, md: 10 }}>
-						Blog is under construction
+						Blog is under maintenance
 					</Heading>
 				</Box>
 				<Box flex="1" textAlign={{ base: "center", md: "right" }}>
