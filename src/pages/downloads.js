@@ -96,7 +96,7 @@ function Downloads() {
 					Newsletters
 				</Text>
 			</Flex>
-			<Flex justify="center" style={{ paddingLeft: "16px" }}>
+			<Flex justify="center" py={4}>
 				<SimpleGrid columns={{ base: 1, sm: 2, md: 4 }} spacing={4}>
 					{newsLetters.map((report, index) => (
 						<AnnualReportCard
