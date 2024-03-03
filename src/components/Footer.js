@@ -66,7 +66,7 @@ function Footer() {
 				fontSize="sm"
 				m={[1, 0, 0]}
 			>
-				Copyright © 2023 Rotaract Alumni Mora. All rights reserved.
+				Copyright © 2024 Rotaract Alumni Mora. All rights reserved.
 			</Text>
 		</Box>
 	);
