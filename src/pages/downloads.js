@@ -45,11 +45,7 @@ const annualReports = [
 	},
 ];
 const bulletins = [
-	{
-		title: "Vibrant Voyages - 1st Quarter",
-		imageUrl: "/logo_b.png",
-		pdfUrl: "/reports/Vibrant Voyages Rotaract Alumni Mora Odyssey - 1st Quarter.pdf",
-	},
+	
 	{
 		title: "The Chronicle - 2020/MAY",
 		imageUrl: "/logo_b.png",
@@ -76,6 +72,18 @@ const bulletins = [
 		pdfUrl: "/reports/community_bell_JULLY.pdf",
 	},
 ];
+const newsLetters = [
+	{
+		title: "Vibrant Voyages - 2nd Quarter",
+		imageUrl: "/logo_b.png",
+		pdfUrl: "/reports/Vibrant Voyages Rotaract Alumni Mora Odyssey - 2nd Quarter.pdf",
+	},
+	{
+		title: "Vibrant Voyages - 1st Quarter",
+		imageUrl: "/logo_b.png",
+		pdfUrl: "/reports/Vibrant Voyages Rotaract Alumni Mora Odyssey - 1st Quarter.pdf",
+	},
+];
 
 function Downloads() {
 	return (
@@ -85,12 +93,12 @@ function Downloads() {
 			<PageHeader title="Downloads" />
 			<Flex justify="center" py={4}>
 				<Text fontSize="xl" fontWeight="bold" mb={4} color={"teal"}>
-					Annual Reports
+					Newsletters
 				</Text>
 			</Flex>
 			<Flex justify="center" py={4}>
 				<SimpleGrid columns={{ base: 1, sm: 2, md: 4 }} spacing={4}>
-					{annualReports.map((report, index) => (
+					{newsLetters.map((report, index) => (
 						<AnnualReportCard
 							key={index}
 							title={report.title}
@@ -117,6 +125,24 @@ function Downloads() {
 					))}
 				</SimpleGrid>
 			</Flex>
+			<Flex justify="center" py={4}>
+				<Text fontSize="xl" fontWeight="bold" mb={4} color={"teal"}>
+					Annual Reports
+				</Text>
+			</Flex>
+			<Flex justify="center" py={4}>
+				<SimpleGrid columns={{ base: 1, sm: 2, md: 4 }} spacing={4}>
+					{annualReports.map((report, index) => (
+						<AnnualReportCard
+							key={index}
+							title={report.title}
+							imageUrl={report.imageUrl}
+							pdfUrl={report.pdfUrl}
+						/>
+					))}
+				</SimpleGrid>
+			</Flex>
+			
 			<Footer />
 		</ChakraProvider>
 	);
