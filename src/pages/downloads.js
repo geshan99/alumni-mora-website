@@ -23,11 +23,6 @@ const annualReports = [
 		pdfUrl: "/reports/2021_2022.pdf",
 	},
 	{
-		title: "Annual Report 2021-2022",
-		imageUrl: "/logo_b.png",
-		pdfUrl: "/reports/2021_2022.pdf",
-	},
-	{
 		title: "Annual Report 2020-2021",
 		imageUrl: "/logo_b.png",
 		pdfUrl: "/reports/2020_2021.pdf",
