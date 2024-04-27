@@ -76,14 +76,14 @@ const bulletins = [
 const newsLetters = [
 	{
 		title: "Vibrant Voyages",
-		year: "2022-2023",
+		year: "2023-2024",
 		title2: "2nd Quarter",
 		imageUrl: "/logo_b.png",
 		pdfUrl: "/reports/Vibrant Voyages Rotaract Alumni Mora Odyssey - 2nd Quarter.pdf",
 	},
 	{
 		title: "Vibrant Voyages",
-		year: "2022-2023",
+		year: "2023-2024",
 		title2: "1st Quarter",
 		imageUrl: "/logo_b.png",
 		pdfUrl: "/reports/Vibrant Voyages Rotaract Alumni Mora Odyssey - 1st Quarter.pdf",
