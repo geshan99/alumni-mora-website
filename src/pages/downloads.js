@@ -10,6 +10,7 @@ import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import PageHeader from "@/components/PageHeader";
 import AnnualReportCard from "@/components/downloads/AnnualReportCard";
+import AnnualReportCard2 from "@/components/downloads/AnnualReportCard2";
 
 const annualReports = [
 	{
@@ -74,12 +75,16 @@ const bulletins = [
 ];
 const newsLetters = [
 	{
-		title: "Vibrant Voyages - 2022-2023 - 2nd Quarter",
+		title: "Vibrant Voyages",
+		year: "2022-2023",
+		title2: "2nd Quarter",
 		imageUrl: "/logo_b.png",
 		pdfUrl: "/reports/Vibrant Voyages Rotaract Alumni Mora Odyssey - 2nd Quarter.pdf",
 	},
 	{
-		title: "Vibrant Voyages - 2022-2023 -1st Quarter",
+		title: "Vibrant Voyages",
+		year: "2022-2023",
+		title2: "1st Quarter",
 		imageUrl: "/logo_b.png",
 		pdfUrl: "/reports/Vibrant Voyages Rotaract Alumni Mora Odyssey - 1st Quarter.pdf",
 	},
@@ -99,7 +104,7 @@ function Downloads() {
 			<Flex justify="center" py={4}>
 				<SimpleGrid columns={{ base: 1, sm: 2, md: 4 }} spacing={4}>
 					{newsLetters.map((report, index) => (
-						<AnnualReportCard
+						<AnnualReportCard2
 							key={index}
 							title={report.title}
 							imageUrl={report.imageUrl}
