@@ -107,6 +107,8 @@ function Downloads() {
 						<AnnualReportCard2
 							key={index}
 							title={report.title}
+							year={report.year}
+							title2={report.title2}
 							imageUrl={report.imageUrl}
 							pdfUrl={report.pdfUrl}
 						/>
