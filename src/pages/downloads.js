@@ -40,21 +40,26 @@ const annualReports = [
 	},
 ];
 const bulletins = [
-	
+
+	{
+		title: "LIMITLESS VOYAGE - 2024 ",
+		imageUrl: "/logo_b.png",
+		pdfUrl: "/reports/Joint_Bulletin_2024.pdf",
+	},
 	{
 		title: "The Chronicle - 2020/MAY",
 		imageUrl: "/logo_b.png",
 		pdfUrl: "/reports/bulletin_2020_MAY.pdf",
 	},
 	{
-		title: "The Chronicle - 2019/I",
-		imageUrl: "/logo_b.png",
-		pdfUrl: "/reports/bulletin_2019_1.pdf",
-	},
-	{
 		title: "The Chronicle - 2019/II",
 		imageUrl: "/logo_b.png",
 		pdfUrl: "/reports/bulletin_2019_2.pdf",
+	},
+	{
+		title: "The Chronicle - 2019/I",
+		imageUrl: "/logo_b.png",
+		pdfUrl: "/reports/bulletin_2019_1.pdf",
 	},
 	{
 		title: "ALMANAC",
@@ -69,12 +74,12 @@ const bulletins = [
 ];
 const newsLetters = [
 	{
-		title: "Vibrant Voyages - 2nd Quarter",
+		title: "Vibrant Voyages - 2022-2023 - 2nd Quarter",
 		imageUrl: "/logo_b.png",
 		pdfUrl: "/reports/Vibrant Voyages Rotaract Alumni Mora Odyssey - 2nd Quarter.pdf",
 	},
 	{
-		title: "Vibrant Voyages - 1st Quarter",
+		title: "Vibrant Voyages - 2022-2023 -1st Quarter",
 		imageUrl: "/logo_b.png",
 		pdfUrl: "/reports/Vibrant Voyages Rotaract Alumni Mora Odyssey - 1st Quarter.pdf",
 	},
