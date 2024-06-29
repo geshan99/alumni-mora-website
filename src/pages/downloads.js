@@ -14,6 +14,11 @@ import AnnualReportCard2 from "@/components/downloads/AnnualReportCard2";
 
 const annualReports = [
 	{
+		title: "Annual Report 2023-2024",
+		imageUrl: "/logo_b.png",
+		pdfUrl: "/reports/2023_2024.pdf",
+	},
+	{
 		title: "Annual Report 2022-2023",
 		imageUrl: "/logo_b.png",
 		pdfUrl: "/reports/2022_2023.pdf",
