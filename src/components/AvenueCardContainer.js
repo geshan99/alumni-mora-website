@@ -1,19 +1,22 @@
 // CardContainer.js
 import React from "react";
-import { Box, Grid } from "@chakra-ui/react";
+import { Grid, Box } from "@chakra-ui/react";
 import AvenueCard from "./AvenueCard";
 
 const AvenueCardContainer = ({ cardData }) => {
 	return (
-		<Box p={4} marginLeft={[0, 0, 10, 5]}>
+		<Box p={4} width="100%">
 			<Grid
-				templateColumns={[
-					"repeat(auto-fill, minmax(250px, 1fr))",
-					"repeat(auto-fill, minmax(300px, 1fr))",
-					"repeat(auto-fill, minmax(300px, 1fr))",
-					"repeat(auto-fill, minmax(250px, 1fr))",
-				]}
-				gap={2}
+				templateColumns={{
+					base: "1fr",
+					sm: "repeat(2, 1fr)",
+					md: "repeat(3, 1fr)",
+					lg: "repeat(5, 1fr)",
+				}}
+				gap={4}
+				maxW="1600px"
+				mx="auto"
+				justifyItems="center"
 			>
 				{cardData.map((data, index) => (
 					<AvenueCard

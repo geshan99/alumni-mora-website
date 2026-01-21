@@ -4,7 +4,6 @@ import Navbar from "@/components/Navbar";
 import Head from "next/head";
 import HomePagePara from "../components/HomePagePara";
 import AvenueCardContainer from "@/components/AvenueCardContainer";
-import KindredKidneys from "@/components/KinderdKidneys";
 import CountUpCard from "@/components/CountUpCard";
 import ClubInfo from "@/components/ClubInfo";
 import { Box, Flex, VStack } from "@chakra-ui/react";
@@ -12,7 +11,7 @@ import Stats from "@/components/Stats";
 
 export default function Home() {
 	const content =
-		'In its 11th year of operation, the Rotaract Club of Alumni of  University of Moratuwa continues to implement sustainable programs aimed at serving the community as active youth within the nation. Over the years, the club has nurtured and cultivated a strong relationship with the Rotaract Club of the University of Moratuwa. From its humble beginnings with 20 members, the club has steadily grown its membership to over 80 active participants. The club\'s ongoing endeavors receive unwavering support from former members spanning the globe. The annual theme of the club, "Limitless You for a Passion-Driven Future," underscores the importance of lifting the peers while serving the community. The club remains steadfast in its commitment to building enduring connections and fostering a sense of belonging among its members, a vision that has been wholeheartedly embraced by Rotaract Alumni Mora. Through fellowship, they have cultivated a nurturing environment that inspires everyone to pursue excellence and realize their fullest potential. The Rotaract Alumni Mora continues to achieve remarkable feats and make a substantial impact on the world through continuous growth and improvement.';
+		'In its 13th year of operation, the Rotaract Club of Alumni of  University of Moratuwa continues to implement sustainable programs aimed at serving the community as active youth within the nation. Over the years, the club has nurtured and cultivated a strong relationship with the Rotaract Club of the University of Moratuwa. From its humble beginnings with 20 members, the club has steadily grown its membership to over 80 active participants. The club\'s ongoing endeavors receive unwavering support from former members spanning the globe. The annual theme of the club, "Ignite the Change," embodies our commitment to sparking transformation and creating meaningful impact in our communities. This theme underscores the importance of taking initiative, inspiring others, and driving positive change while serving the community. The club remains steadfast in its commitment to building enduring connections and fostering a sense of belonging among its members, a vision that has been wholeheartedly embraced by Rotaract Alumni Mora. Through fellowship and collective action, we have cultivated a dynamic environment that empowers everyone to ignite their potential and become catalysts for change. The Rotaract Alumni Mora continues to achieve remarkable feats and make a substantial impact on the world through continuous growth, innovation, and the unwavering spirit of igniting positive transformation.';
 	const avenue_data = [
 		{
 			icon: "/icons/community.svg",
@@ -46,10 +45,6 @@ export default function Home() {
 				"We aim to offer nature enthusiasts exciting opportunities for active involvement by raising awareness about various species and promoting compassion towards animals. Our efforts extend to conserving the environment through multiple facets.",
 		},
 	];
-	const title = "Little Efforts Do Matter a Lot";
-	const description =
-		'"Kindred Kidneys", an amiable venture organized by Rotaract Alumni Mora, marks its next footprints in extending a helping hand to support patients suffering from Chronic Kidney Disease (CKD), by funding the SLKPA (Samastha Lanka Kidney Patients Association) for their Dialysis treatments. All the generous hearts are kindly invited to support this courteous movement.';
-	const buttonText = "Be a Part of Kindred Kidneys";
 	return (
 		<>
 			<Head>
@@ -83,16 +78,6 @@ export default function Home() {
 					cardData={avenue_data}
 				></AvenueCardContainer>
 				{/* <RotaractDetails></RotaractDetails> */}
-				<Flex justifyContent={"center"}>
-					<KindredKidneys
-						title={title}
-						description={description}
-						buttonText={buttonText}
-						imageUrl="/home/kindered.png"
-						fundUrl="https://gofund.me/49b13769"
-					></KindredKidneys>
-				</Flex>
-
 				<Stats></Stats>
 				<Footer></Footer>
 			</main>
