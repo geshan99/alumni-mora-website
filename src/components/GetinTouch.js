@@ -80,7 +80,7 @@ function GetinTouch() {
 							</Text>
 						</Box>
 						<Text fontSize="sm" fontWeight="400">
-							+(94) 713 826 109
+							+94 74 175 2039
 						</Text>
 					</Stack>
 				</Box>

@@ -2,6 +2,27 @@ import React from "react";
 import { Flex, Text, Box, Image } from "@chakra-ui/react";
 const data = [
 	{
+		year: "Year 2024-2025",
+		president: "Rtr. Nimesh Kavinda",
+		projects: [
+			"Kindred Kidneys conducted scholarship programs to support families affected by Chronic Kidney Disease (CKD).",
+			"En Vogue focused on fashion design by providing awareness on cloth material technology through both theoretical and hands-on practical sessions.",
+		],
+		img: "/pastPresidents/Nimesh Kavinda.jpg",
+	},
+	{
+		year: "Year 2023-2024",
+		president: "Rtr. Lakshani Pathirage",
+		projects: [
+			"The club completed over 30 projects across all six Rotaract Avenues, upholding the theme \"Create Hope in the World.\"",
+			"Community initiatives like Kindred Kidneys, Nena Sayura, Suwa Arana, and Share the Joy strengthened local impact in Sri Lanka.",
+			"Professional and International Service projects expanded growth through programs such as DIYer, Maithri, and United We Stand.",
+			"Environmental, IT, PR, Editorial, and Sports teams enhanced engagement through projects like Seaside Saviors, Vibrant Voyages, and multiple sports events.",
+			"District collaborations, international partnerships, and diverse participation made the 2023–24 year impactful and inclusive.",
+		],
+		img: "/pastPresidents/Lakshani.jpg",
+	},
+	{
 		year: "Year 2022-2023",
 		president: "Rtr. Ayesh Malindu Weerasinghe",
 		projects: [
