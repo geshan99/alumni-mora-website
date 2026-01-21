@@ -50,7 +50,7 @@ const getImageUrl = (name) => {
 
 	const fileName = nameMap[name];
 	if (fileName && !fileName.toLowerCase().endsWith(".heic")) {
-		return `/bod2/${fileName}`;
+		return `/bod25-26/${fileName}`;
 	}
 	// Return dummy image if not found or unsupported format
 	return "/logo_b.png";
