@@ -22,7 +22,7 @@ jobs:
               run: npm run build
 
             - name: Archive Production Artifact
-              uses: actions/upload-artifact@v2
+              uses: actions/upload-artifact@v4
               with:
                   name: out
                   path: out
