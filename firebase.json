@@ -1,6 +1,7 @@
 {
 	"hosting": {
 		"public": "out",
+		"site": "official-web-site-ae6cc",
 		"ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
 	},
 	"rewrites": [
