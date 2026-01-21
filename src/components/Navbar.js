@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import {
 	Flex,
 	Box,
@@ -39,14 +40,14 @@ function Navbar() {
 			</Box>
 
 			<Box>
-				<a href="/">
+				<Link href="/">
 					<Image
 						src="/logo_b.png"
 						alt="Logo"
 						width="250px"
 						height="auto"
 					/>
-				</a>
+				</Link>
 			</Box>
 
 			<Box
@@ -55,7 +56,7 @@ function Navbar() {
 				mt={{ base: 4, md: 0 }}
 			>
 				<Button variant="link" mr={4} _hover={{ color: "teal.500" }}>
-					<a href="/">Home</a>
+					<Link href="/">Home</Link>
 				</Button>
 
 				<Menu>
@@ -70,17 +71,17 @@ function Navbar() {
 					</MenuButton>
 					<MenuList>
 						<MenuItem color="black">
-							<a href="/about/historyPage.html">History</a>
+							<Link href="/about/historyPage">History</Link>
 						</MenuItem>
 						<MenuItem color="black">
-							<a href="/about/pastPresidents.html">
-								Boad of Officials
-							</a>
+							<Link href="/about/bod">
+								Board of Officials
+							</Link>
 						</MenuItem>
 					</MenuList>
 				</Menu>
 				<Button variant="link" mr={4} _hover={{ color: "teal.500" }}>
-					<a href="/downloads.html">Downloads</a>
+					<Link href="/downloads">Downloads</Link>
 				</Button>
 				<Menu>
 					<MenuButton
@@ -94,41 +95,41 @@ function Navbar() {
 					</MenuButton>
 					<MenuList>
 						<MenuItem color="black">
-							<a href="/avenues/club.html">Club Service</a>
+							<Link href="/avenues/club">Club Service</Link>
 						</MenuItem>
 						<MenuItem color="black">
-							<a href="/avenues/community.html">
+							<Link href="/avenues/community">
 								Community service
-							</a>
+							</Link>
 						</MenuItem>
 						<MenuItem color="black">
-							<a href="/avenues/environmental.html">
+							<Link href="/avenues/environmental">
 								Environmental Service
-							</a>
+							</Link>
 						</MenuItem>
 						<MenuItem color="black">
-							<a href="/avenues/internation.html">
+							<Link href="/avenues/internation">
 								International service
-							</a>
+							</Link>
 						</MenuItem>
 						<MenuItem color="black">
-							<a href="/avenues/professional.html">
+							<Link href="/avenues/professional">
 								Professional Development
-							</a>
+							</Link>
 						</MenuItem>
 						<MenuItem color="black">
-							<a href="/avenues/sports.html">
+							<Link href="/avenues/sports">
 								Sports and Recreational Activities{" "}
-							</a>
+							</Link>
 						</MenuItem>
 					</MenuList>
 				</Menu>
 				<Button variant="link" mr={4} _hover={{ color: "teal.500" }}>
-					<a href="/awards.html">Awards</a>
+					<Link href="/awards">Awards</Link>
 				</Button>
 
 				<Button variant="link" mr={4} _hover={{ color: "teal.500" }}>
-					<a href="/contactus.html">Contact Us</a>
+					<Link href="/contactus">Contact Us</Link>
 				</Button>
 			</Box>
 
